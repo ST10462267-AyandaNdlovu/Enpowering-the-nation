@@ -19,6 +19,15 @@ body {
   width: 180px;
 }
 
+.navBar p1 {
+  text-size-adjust: 12px;
+  text-align: center;
+  justify-content: center;
+  padding-top: 50px;
+  padding-right: 50px;
+  font-size: 30px;
+}
+
 .Paragraph {
   height: 800px;
   background-image: url(backgroundEN.jpeg);
@@ -45,7 +54,7 @@ body {
   color: blue;
 }
 .ParagraphCU {
-  background: rgb(24, 179, 42);
+  background: #ffffff;
   background: linear-gradient(
     90deg,
     rgba(24, 179, 42, 1) 41%,
@@ -78,15 +87,20 @@ body {
 
 .Paragraph2 {
   border-radius: 0;
-  background-color: rgb(9 234 110);
+  background-color: greenyellow;
   height: 700px;
   margin: 0;
   justify-content: space-around;
   text-align: center;
-  font-size: 30px;
+  font-size: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 50px;
 }
+  
+  
 .Paragraph2 h3 {
-  background-color: rgb(9 234 110);
+  background-color: #ffffff;
   font-size: 50px;
   text-align: center;
   color: white;
@@ -94,8 +108,10 @@ body {
   background-color: greenyellow;
 }
 
+
+
 .Paragraph3 {
-  background-color: rgb(9 234 110);
+  background-color: #ffffff;
   height: 700px;
   margin: 0;
   justify-content: space-around;
@@ -112,7 +128,7 @@ body {
 }
 
 .Paragraph4 {
-  background-color: rgb(9 234 110);
+  background-color: #ffffff;
   height: 700px;
   margin: 0;
   justify-content: space-around;
@@ -125,10 +141,15 @@ body {
   color: white;
   margin-top: 0;
   background-color: greenyellow;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 50px;
+
 }
 
 .Paragraph5 {
-  background-color: rgb(9 234 110);
+  background-color: #ffffff;
   height: 700px;
   margin: 0;
   justify-content: space-around;
@@ -144,7 +165,7 @@ body {
 }
 
 .ParagraphAU {
-  background-color: rgb(9 234 110);
+  background-color: #ffffff;
   height: 700px;
   margin: 0;
   padding-top: 15px;
@@ -160,23 +181,7 @@ body {
   font-size: 30px;
 }
 
-.ParagraphOS {
-  background-color: rgb(9 234 110);
-  height: 700px;
-  margin: 0;
-  padding-top: 15px;
-  text-align: center;
-  font-size: 30px;
-}
-
-.ParagraphOS p {
-  text-align: center;
-  color: white;
-  margin: 0;
-  padding-top: 240px;
-  font-size: 30px;
-}
-hr{
+.hr{
     width: 80%;
     color: black;
 }
@@ -184,6 +189,7 @@ hr{
     display: flex;
     justify-content: center;
     background-color: greenyellow;
+    padding-bottom: 20%;
 }
 .form{
     display: flex;
@@ -193,18 +199,21 @@ hr{
     background-color: rgba(224, 224, 224, 0.415);
     margin: 20px;
     padding: 10px;
+    margin-top: 10%;
 }
 .form input{
     border: none;
     border-bottom: 1px solid black;
     margin: 10px;
     background-color: transparent;
+    margin-top: 5%;
 }
 .form select{
     border: none;
     border-bottom: 1px solid black;
     margin: 10px;
     background-color: transparent;
+    margin-top: 10%;
 }
 .form button{
     background-color: #13aa52;
@@ -239,3 +248,12 @@ hr{
     }
   
   }
+
+  .body-two {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 50px;
+  background-color: #ffffff;
+}
+
